@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 """
 Generates RSA Key pairs.
+
+>>> generator = RSAKeyPairGenerator()
+>>> generator.generate_keys()
 """
 from randomPrimeGenerator import RandomPrimeGenerator
 from fractions import gcd
